@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // 🔗 Conectar con MongoDB Compass
-const MONGO_URI = 'mongodb+srv://chelinv2004:MD1217cv2019@cluster0.xfa8v.mongodb.net/calificaciones'; // Cambia 'escuela' por el nombre de tu base de datos
+const MONGO_URI = 'mongodb+srv://chelinv2004:MD1217cv2019@cluster0.xfa8v.mongodb.net/calificacione'; // Cambia 'escuela' por el nombre de tu base de datos
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
